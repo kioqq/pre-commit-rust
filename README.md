@@ -6,14 +6,14 @@
 
 ```yaml
 - repo: https://github.com/kioqq/pre-commit-rust
-    rev: v1.0
-    hooks:
-      - id: cargo-fmt
-      - id: cargo-udeps
-      - id: cargo-audit
-      - id: cargo-check
-      - id: cargo-clippy
-      - id: cargo-test
+  rev: v1.0
+  hooks:
+  - id: cargo-fmt
+  - id: cargo-udeps
+  - id: cargo-audit
+  - id: cargo-check
+  - id: cargo-clippy
+  - id: cargo-test
 ```
 
 ---
