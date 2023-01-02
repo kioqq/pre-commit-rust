@@ -6,7 +6,7 @@
 
 ```yaml
 - repo: https://github.com/kioqq/pre-commit-rust
-    rev: master
+    rev: v1.0
     hooks:
       - id: cargo-fmt
       - id: cargo-udeps
