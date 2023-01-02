@@ -9,11 +9,12 @@
   rev: v1.0
   hooks:
   - id: cargo-fmt
-  - id: cargo-udeps
-  - id: cargo-audit
+  - id: cargo-test
   - id: cargo-check
   - id: cargo-clippy
-  - id: cargo-test
+  # Take attention on notes section
+  - id: cargo-audit
+  - id: cargo-udeps
 ```
 
 ---
